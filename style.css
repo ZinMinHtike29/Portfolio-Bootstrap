@@ -1,0 +1,103 @@
+.home .container-lg img {
+    animation: shakeY;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+nav {
+    z-index: 10;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 100%;
+    background-color: red;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    transition: 0.5s;
+}
+
+.navbar ul li:hover {
+    background-color: rgba(255, 0, 0, 0.13);
+    opacity: 0.7;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.dataAosOverflow {
+    overflow-x: hidden;
+}
+
+.social-link a i {
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.social-link a i:hover {
+    color: red !important;
+}
+
+.project-item,
+.item {
+    transition: 0.5s;
+}
+
+.project-item:hover {
+    transform: scale(1.04);
+}
+
+.item:hover {
+    transform: scale(1.04);
+}
+
+.hamburger-menu .line {
+    width: 34px;
+    height: 3px;
+    background-color: red;
+    margin-bottom: 7px;
+    transition: 0.5s;
+}
+
+.hamburger-menu .two {
+    width: 25px;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.one-after {
+    transform: rotate(45deg) translate(4px, 10px);
+}
+
+.two-after {
+    transform: translateX(-14px);
+    opacity: 0;
+}
+
+.three-after {
+    transform: rotate(-45deg) translate(4px, -10px);
+}
+
+.carousel-indicators button {
+    background-color: red !important;
+    width: 25px !important;
+    height: 5px !important;
+}
